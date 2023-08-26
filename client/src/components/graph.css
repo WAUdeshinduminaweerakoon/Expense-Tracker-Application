@@ -16,3 +16,16 @@
 .lables-div > * + * {
     margin-top: 1rem; /* Equivalent to gap-4 */
   }
+
+.total-h{
+   margin-bottom: 1rem;
+   font-weight: bold;
+   font-size: 24px;
+}  
+.chart span{
+    display: block;
+    font-size: 1.875rem;
+    color: #38a169;
+    /* color: #f41313; */
+
+}
