@@ -32,7 +32,7 @@ const Graph = () => {
       <div className="item">
           <div className="chart">
             <Doughnut{...config}></Doughnut>
-            <h3 className='total-h'>Total</h3>
+            <h3 className='title'>Total</h3>
             <span>${0}</span>
           </div>
           <div className="lables-div">
