@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+.label{
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
+.labal-div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: lightgray;
+    
+}
+.box{
+    width: 0.5rem; 
+    height: 2rem; 
+    border-radius: 0.25rem; 
+    padding-top: 0.75rem; 
+    padding-bottom: 0.75rem;
+}
+.text-div{
+    align-items: center;
+    padding: 1px;
+
+}

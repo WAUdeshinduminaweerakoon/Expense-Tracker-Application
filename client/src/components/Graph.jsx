@@ -2,6 +2,7 @@ import React from 'react';
 import './graph.css';
 import {Doughnut} from 'react-chartjs-2'
 import {Chart,ArcElement}from 'chart.js';
+import Labeis from './Labels';
 
 Chart.register(ArcElement);
 const config={
@@ -37,6 +38,7 @@ const Graph = () => {
           </div>
           <div className="lables-div">
             {/*Lables*/}
+            <Labeis></Labeis>
           </div>
         </div>      
     </div>

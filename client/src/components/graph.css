@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
 .graph-container{
     display: flex;
     justify-content:center;
@@ -37,4 +43,5 @@
     top: 40%;
     margin-left: auto;
     margin-right: auto;
+
 }
