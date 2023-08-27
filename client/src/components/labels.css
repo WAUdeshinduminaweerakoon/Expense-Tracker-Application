@@ -10,7 +10,8 @@
 }
 .labal-div{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 10% 70% 20%;
+    text-align: left;
     padding: 10px;
     background-color: lightgray;
     
@@ -26,4 +27,7 @@
     align-items: center;
     padding: 1px;
 
+}
+.text-div h3{
+  padding-left: -10px;
 }

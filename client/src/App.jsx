@@ -1,6 +1,7 @@
 
 import './App.css';
 import Graph from './components/Graph.jsx';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           {/*Chart*/}
           <Graph/>
           {/*from*/}
+          <Form/>
         </div>
       </div> 
     </div>
