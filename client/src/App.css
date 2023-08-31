@@ -29,16 +29,18 @@
   background-color: var(--color-purple);
 }
 .container{
+
     margin-left: auto;
     margin-right: auto;
-    max-width: 100vw; /* You'll need to define this value in pixels or other units */
+    max-width: 100vw;
     text-align: center;
+    padding-top: 2rem;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* This is similar to drop-shadow-lg */
     color: #333; /* This is similar to text-gray-800 */
 }
 .container h1{
   font-size: 2rem; /* Equivalent to text-4xl */
-  padding-top: 2rem; /* Equivalent to py-8 */
+  padding: 2rem; /* Equivalent to py-8 */
   margin-bottom: 2.5rem; /* Equivalent to mb-10 */
   background-color: #1e2a38; /* Equivalent to bg-slate-800 */
   color: white; /* Equivalent to text-white */
