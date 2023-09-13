@@ -1,5 +1,6 @@
 import React from 'react';
 import {useForm} from 'react-hook-form';
+import List from './List';
 import './form.css';
 
 const Form = () => {
@@ -35,6 +36,7 @@ const Form = () => {
         </div>
 
       </form>
+      <List></List>
 
 
 
