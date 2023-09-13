@@ -14,3 +14,17 @@
     padding-bottom: 2rem;
     font-size: 1.25rem;
 }
+.submit-btn{
+    padding-top: 20px;
+}
+.button-submit{
+    border: 1px solid #000; 
+    padding-top: 0.5rem; 
+    padding-bottom: 0.5rem; 
+    color: #fff; 
+    background-color: #4f46e5; 
+    width: 100%;
+}
+.form-input{
+    @apply mt-1 block w-full py-2 px-3 border border-gray-200 bg-white rounded-md focus:outline-none focus:ring-indigo-500 sm:text-sm;
+}
